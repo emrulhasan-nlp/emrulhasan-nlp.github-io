@@ -65,55 +65,78 @@
         <div class="projects">
 <div class="row">
     <div class="card" style="width: 100%;">
-    <img class="card-img-top" src="img/Registration_TaskSelection.png" alt="MRRRec">
+    <!-- <img class="card-img-top" src="img/Registration_TaskSelection.png" alt="MRRRec"> -->
     <div class="card-body">
-      <h5 class="card-title">MRRRec: Multi-criteria Rating and Review based Recommendation Model</h5>
-      <p class="card-text">In this project, we introduce a novel multicriteria recommendation system that leverage the multiple criteria, and textual review. 
-        Implicit criteria ratings are captured from textual review by utilizing attention machasim. Explicit criteria ratings are integrated into implicit criteria ratings and fed into a DNN to estimate the overall ratings.
-        We show that our proposed deep multicriteria recommendation model outperfroms the existing baselines in terms of both MSE, MAE, precision, recall, and F1</p>
-      <a href="https://ieeexplore.ieee.org/document/10020741" class="btn btn-primary">Project Link</a>
-      <br><br><a href="https://github.com/emrulhasan-nlp/MRRRec22" class="btn btn-primary">Source Code</a>           
+      <h5 class="card-title">LLM for data annotation and benchmark development -News media biased detection</h5>
+      <p class="card-text">In this project, we developed a novel multimodal dataset called NewsMediaBias-Plus for analyzing media bias and disinformation through news articles and associated visual content.  
+        The focus of the project is to mitigate the biases in political news, particularly in North American contexts. 
+        The news articles were scraped from several mainstream journals including but not limited to CBC, BBC, The New York Times, etc. 
+        We applied LLMs (llama and Mistral series) for the next annotation, and Multimodal models (CLIP, LLaVA series, MiniCPM, PaliGemma, and Phi3 Vision) for 
+        image annotation. We also fine-tuned PaliGemma, and Llama (3, 3.1) and developed several benchmark models. </p>
+      <a href="https://vectorinstitute.ai/new-multimodal-dataset-will-help-in-the-development-of-ethical-ai-systems/" class="btn btn-primary">Project details</a>
+      <br><br><a href="https://huggingface.co/datasets/vector-institute/newsmediabias-plus" class="btn btn-primary">Dataset link</a>           
     </div>
     </div>
-    <!-- <div class="card" style="width: 12rem;">
-        <img class="card-img-top" src="img/220px-Game_of_Thrones_Season_8.png" alt="Game_of_Thrones">
+    <div class="card" style="width: 12rem;">
+        <!-- <img class="card-img-top" src="img/220px-Game_of_Thrones_Season_8.png" alt="Game_of_Thrones"> -->
         <div class="card-body">
-          <h5 class="card-title">Sentiment Analysis on Game of Thrones tweets for Season 8</h5>
-          <p class="card-text">Analysis of sentiments of different characters by calculating polarity scores and predicted season outcome by applying logistic regression over the model dataset sample using train test split.</p>
-          <a href="https://github.com/Aritra23/GoT-Sentiment-Analysis-Twitter" class="btn btn-primary">Source Code</a>           
+          <h5 class="card-title">MRRRec: Multi-criteria Rating and Review based Recommendation Model</h5>
+          <p class="card-text">
+            In this project, we develop a novel multicriteria recommendation system that integrates multicriteria rating-based features with textual review features. 
+            It captures implicit criteria ratings from textual reviews using an attention mechanism and integrates them with explicit criteria ratings. 
+            The criteria that are explicitly defined by the business are referred to as explicit criteria whereas implicit criteria are discussed in the text. 
+            The combined features are then processed through a Deep Neural Network (DNN) to estimate overall ratings or preferences. 
+            The proposed deep multicriteria recommendation model outperforms existing baselines in terms of Mean Squared Error (MSE), Mean Absolute Error (MAE), precision, recall, and F1 score.
+          </p>
+          <a href="https://ieeexplore.ieee.org/document/10020741" class="btn btn-primary">Article Link</a>
+          <br><br><a href="https://github.com/emrulhasan-nlp/MRRRec22" class="btn btn-primary">Source Code</a>             
         </div>
       </div>
     <div class="card" style="width: 12rem;">
-        <img class="card-img-top" src="img/Earthquake_leaflet.PNG" alt="Earthquake_leaflet">
+        <!-- <img class="card-img-top" src="img/Earthquake_leaflet.PNG" alt="Earthquake_leaflet"> -->
         <div class="card-body">
-          <h5 class="card-title">Earthquake data visualization</h5>
-          <p class="card-text">Leaflet plot for Earthquake Data from USGS based on latitude and longitude</p>
-          <a href="https://aritra23.github.io/Earthquake-data-visualization-Leaflet/" class="btn btn-primary">Project Link</a>
-          <br><br><a href="https://github.com/Aritra23/Earthquake-data-visualization-Leaflet" class="btn btn-primary">Source Code</a>           
+          <h5 class="card-title">Aspect-Aware Multi-Criteria Recommendation Model with Aspect Representation</h5>
+          <p class="card-text">A novel multi-criteria recommendation model is proposed by leveraging criteria ratings. It is a two-step process. 
+            The first step involves fine-tuning BERT for criteria rating prediction with an additional aspect representation layer. 
+            These predicted ratings are then aggregated using a deep neural network to estimate overall ratings. 
+            The model was evaluated on three datasets-Tripadvisor, RateBeer, and BeerAdvocate, outperforming the several baselines.</p>
+          <a href="https://ieeexplore.ieee.org/abstract/document/10350125" class="btn btn-primary">Article Link</a>
+          <!-- <br><br><a href="https://github.com/Aritra23/Earthquake-data-visualization-Leaflet" class="btn btn-primary">Source Code</a>            -->
         </div>
-      </div> -->
-      <!--
+      </div> 
         <div class="card" style="width: 12rem;">
-            <img class="card-img-top" src="img/belly_button_diversity.PNG" alt="belly_button_diversity">
+            <!-- <img class="card-img-top" src="img/belly_button_diversity.PNG" alt="belly_button_diversity"> -->
             <div class="card-body">
-              <h5 class="card-title">Belly Button Biodiversity</h5>
-              <p class="card-text">Interactive dashboard to explore the Belly Button Biodiversity DataSet.</p>
-              <a href="https://fathomless-crag-75171.herokuapp.com/" class="btn btn-primary">Project Link</a>
-              <br><br><a href="https://github.com/Aritra23/Belly-Button-Biodiversity-project" class="btn btn-primary">Source Code</a>           
+              <h5 class="card-title">Multicriteria Recommendation System by Leveraging Predefined, Implicit, and Undefined Criteria</h5>
+              <p class="card-text">We propose a novel multi-criteria recommendation model that utilizes predefined, implicit, and undefined criteria. 
+                We use a semantic similarity-based sentence clustering method to identify the predefined and implicit criteria and a sentiment analyzer to estimate their ratings. 
+                Semantic similarity between each sentence in the review and the predefined criteria is calculated by using cosine similarity measure, and then the sentence is assigned to the most similar criteria. 
+                A sentence is considered as expressing opinions on an undefined criterion if the similarity score between this sentence and all the predefined criteria is lower than a predefined threshold. 
+                Ratings are computed for each extracted implicit criterion and the undefined criterion based on the review content. 
+                Finally, we use all three types of criteria and an aggregation model to make the final rating prediction for the recommendation system. 
+                Our proposed method demonstrates the superiority compared to several baselines on TripAdvisor and Beer Advocate datasets.
+              </p>
+              <!-- <a href="https://fathomless-crag-75171.herokuapp.com/" class="btn btn-primary">Project Link</a>
+              <br><br><a href="https://github.com/Aritra23/Belly-Button-Biodiversity-project" class="btn btn-primary">Source Code</a>            -->
             </div>
           </div>
 
           <div class="card" style="width: 12rem;">
-            <img class="card-img-top" src="img/UFO_Sightings.PNG" alt="UFO_Sightings">
+            <!-- <img class="card-img-top" src="img/UFO_Sightings.PNG" alt="UFO_Sightings"> -->
             <div class="card-body">
-              <h5 class="card-title">UFO Sighting Dataset</h5>
-              <p class="card-text">JavaScript and DOM Manipulation to filter dataset based single or multiple search categories</p>
-              <a href="https://aritra23.github.io/JavaScript-DOM-Manipulation-Challenge/" class="btn btn-primary">Project Link</a>
-              <br><br><a href="https://github.com/Aritra23/JavaScript-DOM-Manipulation-Challenge" class="btn btn-primary">Source Code</a>
+              <h5 class="card-title">Accommodation Review Ranking for Tourism Recommendation</h5>
+              <p class="card-text">This project is a RecTour Challenge offered by Booking.com as a part of a workshop at the RecSys 2024 conference in Italy. 
+                We were challenged to rank accommodation reviews based on user preferences. Our team own the competition at a rank of second position and published a challenge paper at RecSys2024 conferences. 
+                In this project, we propose an accommodation review ranking methodology by creating user and item profiles from the available features. 
+                User and item profiles are encoded using a sentence transformer for feature extraction, and finally similarity between user profiles and item features. 
+                The ranking performance is assessed with MRR@10 (Mean Reciprocal Rank) and Precision@10. 
+                Our results demonstrate that beyond helpfulness votes, leveraging additional features (e.g., accommodation type, review title, positive aspects of reviews, etc.) significantly improves performance</p>
+              <!-- <a href="https://aritra23.github.io/JavaScript-DOM-Manipulation-Challenge/" class="btn btn-primary">Project Link</a> -->
+              <br><br><a href="https://github.com/emrulhasan-nlp/RecTour2024" class="btn btn-primary">Source Code</a>
             </div>
           </div>
 
-          <div class="card" style="width: 12rem;">
+          <!-- <div class="card" style="width: 12rem;">
             <img class="card-img-top" src="img/Spotify_Visualization.PNG" alt="Spotify">
             <div class="card-body">
               <h5 class="card-title">Spotify Visualization</h5>
@@ -229,7 +252,7 @@
               <a href="https://github.com/Aritra23/Secure-Banking-System" class="btn btn-primary">Source Code</a>
             </div>
           </div>                                       
-        </div>
+        </div> -->
       -->
     </div>
         <!-- Footer -->
