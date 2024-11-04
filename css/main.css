@@ -1,7 +1,7 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 html, body {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 hr {}
 
@@ -16,7 +16,7 @@ hr {}
 
 /* Adjust navbar links for alignment */
 .navbar-nav .nav-link {
-    font-size: 1.2em; /* Optional: increase font size for visibility */
+    font-size: 1.5em; /* Optional: increase font size for visibility */
 }
 
 /* Carousel */
