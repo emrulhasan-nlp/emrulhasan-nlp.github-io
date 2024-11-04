@@ -82,8 +82,9 @@ hr {}
 footer {
     background: #77C9D4;
     padding: 20px;
-    margin-top: 20px;
     text-align: center;
+    margin-top: auto;
+    /*margin: 0 auto;  Centers the footer on the page */
 }
 
 /* Google form alignment */
