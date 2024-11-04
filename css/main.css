@@ -85,7 +85,7 @@ footer {
     margin-top: 20px;
     text-align: center;
     margin-top: auto;
-    width: 80%; /* Ensures the footer spans the full width */
+    width: 100%; /* Ensures the footer spans the full width */
 }
 
 /* Google form alignment */
