@@ -84,8 +84,6 @@ footer {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-    width: 50%; /* Adjusts the width to be narrower */
-    margin: 0 auto; /* Centers the footer on the page */
 }
 
 /* Google form alignment */
