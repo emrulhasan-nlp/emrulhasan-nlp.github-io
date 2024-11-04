@@ -8,7 +8,7 @@ hr {}
 /* Headline */
 .carousel-caption h1 {
     font-size: 5.5rem; /* Increase font size for the headline */
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 4px 4px 4px black;
 }
 
 /* Navigation */
