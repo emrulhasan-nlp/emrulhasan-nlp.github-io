@@ -1,9 +1,15 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 html, body {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 hr {}
+
+/* Headline */
+.carousel-caption h1 {
+    font-size: 2.5rem; /* Increase font size for the headline */
+    text-shadow: 2px 2px 2px black;
+}
 
 /* Navigation */
 .navigation {
